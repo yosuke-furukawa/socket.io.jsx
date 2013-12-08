@@ -1,0 +1,25 @@
+{
+  "name": "socket.io.jsx",
+  "version": "0.0.1",
+  "description": "Socket.io binding for JSX",
+  "main": "./lib/socket.io.jsx",
+  "scripts": {
+    "test": "grunt jsx:test"
+  },
+  "keywords": [
+    "socket.io",
+    "jsx",
+    "lib"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "jsx": "~0.9.71"
+  },
+  "devDependencies": {
+    "grunt-jsx": "~0.1.5",
+    "grunt": "~0.4.2",
+    "socket.io-client": "~0.9.16"
+  }
+}
